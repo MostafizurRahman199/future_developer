@@ -376,8 +376,8 @@ nav button {
 /* current target */
 
 .current_target {
-    width: 1140px;
-    height: 600px;
+  width: 1140px;
+  height: 600px;
 
   display: flex;
   flex-direction: column;
@@ -385,7 +385,7 @@ nav button {
   align-items: center;
 
   margin: 0px auto;
-  
+
   margin-top: 151px;
   gap: 70px;
 }
@@ -434,17 +434,15 @@ nav button {
 }
 
 .target {
+  width: 284px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  /* padding: 40px; */
 
-    width: 284px;
-    height: 219px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: start;
-/* padding: 40px; */
-
-gap: 24px;
-
+  gap: 24px;
 }
 .target img {
   width: 56px;
@@ -452,15 +450,15 @@ gap: 24px;
 
   /* margin: 24px 0px; */
 }
-.target a{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+.target a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
 
-    font-size: 16px;
-    font-weight: 700;
-   
-    text-align: left;
-    text-decoration-line: underline;
+  font-size: 16px;
+  font-weight: 700;
+
+  text-align: left;
+  text-decoration-line: underline;
 }
 .target_inner_div h2 {
   color: rgb(13, 19, 33);
@@ -483,114 +481,102 @@ gap: 24px;
   text-align: left;
 }
 
-
-.target_1{
-    border-radius: 16px;
-
-background: rgba(255, 76, 30, 0.05);
-border-radius: 16px;
-width: 360px;
-height: 250px;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 30px;
+.target_1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  width: 360px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
-.target_2{
-    border-radius: 16px;
-
-background: rgba(0, 76, 232, 0.05);
-border-radius: 16px;
-width: 360px;
-height: 250px;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 30px;
+.target_2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  border-radius: 16px;
+  width: 360px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
-.target_3{
-    border-radius: 16px;
-
-background: rgba(255, 223, 0, 0.05);
-
-width: 360px;
-height: 250px;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 30px;
+.target_3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  width: 360px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-
 
 /* Next target start here */
 
-.next_target{
-    width: 1140px;
-height: 866px;
-margin: 0 auto;
-border:2px solid red;
-
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items:center;
-margin-top: 111px;
-
-}
-
-.next_target_content{
-    width: 852px;
-height: 113px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 24px;
-}
-.next_target_content h1{
-    color: rgb(13, 19, 33);
-    font-family: "Azeret Mono", monospace;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-.next_target_content p{
-    color: rgb(13, 19, 33);
-    font-family: "Azeret Mono", monospace;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
-    opacity: 0.7;
-}
-
-.next_single_card{
+.next_target {
   width: 1140px;
-height: 219px;
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
-
-background: rgb(255, 255, 255);
-display: flex;
-align-items: center;
-gap: 24px;
-padding: 40px;
-font-family: "Azeret Mono", monospace;
+  height: 866px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 111px;
 }
 
-.next_card{
+.next_target_content {
+  width: 852px;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.next_target_content h1 {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.next_target_content p {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.next_single_card {
+  width: 1140px;
+  height: 219px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  font-family: "Azeret Mono", monospace;
+}
+
+.next_card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -598,28 +584,25 @@ font-family: "Azeret Mono", monospace;
   gap: 24px;
   margin-top: 48px;
   font-family: "Azeret Mono", monospace;
-
 }
-.next_card_content{
+.next_card_content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   font-family: "Azeret Mono", monospace;
- 
 }
 
-.next_card_content h2{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
-
+.next_card_content h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.next_card_content p{
+.next_card_content p {
   font-family: "Azeret Mono", monospace;
   color: rgb(13, 19, 33);
   font-size: 16px;
@@ -628,19 +611,95 @@ font-family: "Azeret Mono", monospace;
   letter-spacing: 0%;
   text-align: left;
   opacity: 0.7;
- 
-
-
 }
 .next_target_learn_more {
-    color: rgb(13, 19, 33);
-    font-family: "Azeret Mono", monospace;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 24px;
+}
+
+/* footer */
+
+.need_support {
+  width: 1046px;
+  height: 313px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 48px;
+  background-image: url("./assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  margin: 0 auto;
+  border-radius: 16px;
+  color: white;
+  margin-top: 49px;
 
 }
+.need_support h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Azeret Mono", monospace;
+  
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  
+  text-align: center;
+  
+}
+.need_support p {
+  width: 730px;
+  color: rgb(255, 255, 255);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+
+}
+
+
+.footer_input_div{
+  margin-top: 24px;
+}
+
+.footer_input_div input{
+width: 548px;
+height: 57px;
+padding: 19px 20px 19px 20px;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+.footer_input_div button{
+width: 120px;
+height: 57px;
+padding: 17px 20px 17px 20px;
+margin: 0px 16px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
