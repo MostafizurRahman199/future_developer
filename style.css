@@ -5,6 +5,8 @@
   font-family: "Azeret Mono", monospace;
 }
 
+
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -47,6 +49,9 @@ nav button {
   opacity: 0.8;
 }
 
+.banner_btn{
+  cursor: pointer;
+}
 .banner {
   width: 100%vw;
   height: 652px;
@@ -60,6 +65,7 @@ nav button {
   background-position: center;
   margin: 0 auto;
   font-family: "Azeret Mono", monospace;
+  padding: 20px;
 }
 
 .banner_container {
@@ -88,6 +94,8 @@ nav button {
   letter-spacing: 0%;
   text-align: center;
   font-family: "Azeret Mono", monospace;
+  opacity: 0.7;
+
 }
 
 .banner_container button {
@@ -479,6 +487,8 @@ nav button {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
+  opacity: 0.7;
+
 }
 
 .target_1 {
@@ -668,6 +678,8 @@ nav button {
   letter-spacing: 0%;
   text-align: center;
   margin-top: 16px;
+  opacity: 0.7;
+
 
 }
 
@@ -701,5 +713,46 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+border: none;
 }
 
+
+
+.social_media_footer{
+
+  width: 1440px;
+  height: 100px;
+left: 0;
+top: 5145px;
+
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+margin-top: 80px;
+
+
+}
+.social_media_footer p{
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+.social_media_footer ul{
+
+ display: flex;
+ gap:24px ;
+list-style: none;
+text-decoration: none;
+cursor: pointer;
+}
