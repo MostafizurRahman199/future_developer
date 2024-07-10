@@ -683,6 +683,9 @@ nav button {
 
 }
 
+.footer{
+  width: 1440px;
+}
 
 .footer_input_div{
   margin-top: 24px;
@@ -720,18 +723,15 @@ border: none;
 
 .social_media_footer{
 
-  width: 1440px;
-  height: 100px;
+
+height: 80px;
 left: 0;
 top: 5145px;
-
 display: flex;
-
 justify-content: center;
 align-items: center;
 padding: 32px 150px 32px 150px;
 border-radius: 16px;
-
 background: rgba(13, 19, 33, 0.03);
 margin: 0 auto;
 margin-top: 80px;
@@ -740,18 +740,17 @@ margin-top: 80px;
 }
 
 .inner_footer_div{
-
 width: 1140px;
 height: 36px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 0px;
-
 margin: 32px 0px;
 }
+
+
 .social_media_footer p{
 
   color: rgb(13, 19, 33);
